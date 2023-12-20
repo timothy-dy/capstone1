@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Web Developer Portfolio</title>
+
+    <!-- Google Fonts - Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" type="text/css" href="./index.css">
+</head>
+<body>
+
+    <!-- Start of Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#landing"><strong>Tim</strong></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item pe-3">
+                        <a class="nav-link active" aria-current="page" href="#landing">Home</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link" href="#tools">Tools</a>
+                    </li>
+                    <li class="nav-item ps-3">
+                        <a class="nav-link" href="#contact">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End of Navbar -->
+
+
+
+    <!-- Start of Landing Section -->
+    <div id="landing" class="container-fluid text-dark min-vh-100 p-5 text-center">
+        <div class="row">
+            <h1 class="my-5">你好！(Ni hao!) Ako si Timothy Aaron Dy.</h1>
+            <!-- Name and Description -->
+            <div class="col-12 col-lg-8 d-flex flex-column justify-content-center align-items-center text-center order-md-1">
+                <h2 class="text-uppercase"><strong><em>Full Stack Web Developer</em></strong></h2>
+                <h3 class="mt-5">I graduated with a Bachelor's degree in Computer Science from the University of the Philippines Diliman last 30 July 2023. Currently, I am a software engineer trainee at Pointwest Innovations Corporation and I am here to kickstart my journey to becoming a <em>Full Stack Web Developer</em>. This portfolio is just the beginning of an exciting journey ahead.</h2>
+            </div>
+
+            <!-- Pic of me -->
+            <div class="col-12 col-lg-4 d-flex flex-column justify-content-center align-items-center order-md-2">
+                <img src="./images/Tim_grad.jpg" class="img-fluid rounded-circle m-auto p-sm-4">
+            </div>
+        </div>
+    </div>
+    <!-- End of Landing Section -->
+
+
+
+    <!-- Start of Projects Section -->
+    <div id="projects" class="container-fluid text-center text-dark min-vh-100 p-5 p-md-5">
+        <h1 class="text-uppercase"><strong>Projects</strong></h1>
+        <!-- Small Screen Friendly Cards Start -->
+        <div class="d-lg-none d-xl-none d-xxl-none p-md-5 d-sm-flex d-md-flex justify-content-around row text-light">
+            
+            <!-- Elect Us Card Start -->
+            <div class="card bg-dark col-sm-10 col-md-10 mb-5">
+              <div class="card-body">
+
+                <img src="./images/elect-us.png" class="img-fluid">
+
+                <h5 class="card-title mt-3 text-info"><strong>Elect Us</strong></h5>
+                <h6 class="card-subtitle mb-2 text-muted">Software Engineering/Game Development</h6>
+                <p class="card-text text-info">This is the main output of my Software Engineering courses. This game was created at the height of the 2022 National Elections. This game aims to teach players to vote responsibly.</p>
+                See the source code <a href="https://github.com/login" class="card-link">here</a>.
+              </div>
+            </div>
+            <!-- Elect Us Card End -->
+
+            <!-- Hoaxford Card Start -->
+            <div class="card bg-dark col-sm-10 col-md-10 mb-5">
+              <div class="card-body">
+
+                <img src="./images/hoaxford.png" class="img-fluid">
+
+                <h5 class="card-title mt-3 text-danger"><strong>Hoaxford</strong></h5>
+                <h6 class="card-subtitle mb-2 text-muted">Data Science</h6>
+                <p class="card-text text-danger">This is the capstone project for my Data Science course. In this project, we mined Twitter (now X) for tweets related to our topic that contain disinformation. We then explored and modelled the data to draw significant insights.</p>
+                Visit the project site <a href="https://cs-132-group-43.github.io/Marcos-Achievements/" class="card-link">here</a>.
+              </div>
+            </div>
+            <!-- Hoaxford Card End -->
+
+            <!-- MIPS Card Start -->
+            <div class="card bg-dark col-sm-10 col-md-10 mb-5">
+              <div class="card-body">
+
+                <img id="mips" src="./images/mips.png" class="img-fluid">
+
+                <h5 class="card-title mt-3 text-primary"><strong>MIPS Singlecycle Processor Extension</strong></h5>
+                <h6 class="card-subtitle mb-2 text-muted">Computer Architecture/Organization</h6>
+                <p class="card-text text-primary">This is the second project in my Computer Architecture and Organization course. We were tasked to build upon the existing single-cycle processor and extend it to accommodate up to six additional (6) instructions.</p>
+                Watch the video documentation and live demo <a href="https://www.youtube.com" class="card-link">here</a>!
+              </div>
+            </div>
+            <!-- MIPS Card End -->
+
+            <!-- Console App Card Start -->
+            <div class="card bg-dark col-sm-10 col-md-10 mb-5">
+              <div class="card-body">
+
+                <img id="console-app" src="./images/console-app.png" class="img-fluid">
+
+                <h5 class="card-title mt-3 text-warning"><strong>C# Console App</strong></h5>
+                <h6 class="card-subtitle mb-2 text-warning">Software Engineering</h6>
+                <p class="card-text text-primary">This is the second capstone project. We were tasked to build a console-based app performing various operations depending on a user's role.</p>              
+              </div>
+            </div>
+            <!-- Console App Card End -->
+
+            <!-- Angular App Card Start -->
+            <div class="card bg-dark col-sm-10 col-md-10 mb-5">
+              <div class="card-body">
+
+                <img id="console-app" src="./images/angular-course-booking.png" class="img-fluid">
+
+                <h5 class="card-title mt-3 text-success"><strong>Course Booking App</strong></h5>
+                <h6 class="card-subtitle mb-2 text-success">Angular</h6>
+                <p class="card-text text-success">This is a Course Booking App created with Angular as the front-end framework.</p>              
+              </div>
+            </div>
+            <!-- Angular App Card End -->
+
+        </div>
+        <!-- Small Screen Friendly Cards End -->
+
+
+        <!-- Projects Carousel Start -->
+        <div class="row d-none d-md-none d-lg-block mt-md-5">
+            <div class="offset-xl-1 col-xl-10">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./images/elect-us.png" class="d-block w-100" alt="Elect Us">
+                            <div class="carousel-caption d-none d-md-block text-info">
+                                <h5><strong>Elect Us</strong></h5>
+                                <strong>This is the main output of my Software Engineering courses. This game was created at the height of the 2022 National Elections. This game aims to teach players to vote responsibly</strong>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/hoaxford.png" class="d-block w-100" alt="Hoaxford">
+                            <div class="carousel-caption d-none d-md-block text-danger">
+                                <h5><strong>Hoaxford</strong></h5>
+                                <strong>This is the capstone project for my Data Science course. In this project, we mined Twitter (now X) for tweets related to our topic that contain disinformation. We then explored and modelled the data to draw significant insights.</strong>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/mips.png" class="d-block w-100" alt="MIPS">
+                                <div class="carousel-caption d-none d-md-block text-primary">
+                                    <h5><strong>MIPS Singlecycle Processor Extension</strong></h5>
+                                    <strong>This is the second project in my Computer Architecture and Organization course. We were tasked to build upon the existing single-cycle processor and extend it to accommodate up to six additional (6) instructions without breaking the existing components.</strong>
+                                </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/console-app.png" class="d-block w-100" alt="console app">
+                                <div class="carousel-caption d-none d-md-block text-warning">
+                                    <h5><strong>C# Console App</strong></h5>
+                                    <strong>This is the second capstone project. We were tasked to build a console-based app performing various operations depending on a user's role.</strong>
+                                </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./images/angular-course-booking.png" class="d-block w-100" alt="console app">
+                                <div class="carousel-caption d-none d-md-block text-success">
+                                    <h5><strong>Angular Course Booking App</strong></h5>
+                                    <strong>This is a Course Booking App created with Angular as the front-end framework.</strong>
+                                </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Projects Carousel End -->
+
+    </div>
+    <!-- End of Projects Section -->
+
+
+
+    <!-- Start of Tools Section -->
+    <div id="tools" class="container-fluid text-light text-center min-vh-100 p-5 p-md-5">
+        <h1 class="text-uppercase"><strong>Tools</strong></h1>
+
+        <!-- Core Tools Section Start -->
+        <h3 class="text-center">Core Tools</h3>
+
+        <div id="core-tools" class="d-flex flex-column justify-content-center align-items-center">
+            <div id="html">
+                <img class="tools-img" src="images/logo-html5.png"/>
+            </div>
+            <div id="css-js">
+                <img class="tools-img" src="images/logo-css3.png"/>
+                <img class="tools-img" src="images/logo-javascript.png"/>
+            </div>
+        </div>
+        <!-- Core Tools Section End -->
+        
+        <!-- Other Tools Section Start -->
+        <h3 class="text-center mt-3">Other Tools</h3>
+
+        <div id="other-tools" class="d-flex flex-md-column justify-content-center align-items-center">
+            <div id="tools-1" class="d-md-flex justify-content-center">
+                <img class="tools-img px-3" src="./images/logo-python.png"/>
+                <img class="tools-img px-3" src="./images/logo-c.png"/>
+                <img class="tools-img px-3" src="./images/logo-cpp.png"/>
+                <img class="tools-img px-3" src="./images/logo-c-sharp.png"/>
+                <img class="tools-img px-3" src="./images/logo-bootstrap.png"/>               
+            </div>
+            <div id="tools-2" class="d-md-flex justify-content-center">
+                <img class="tools-img" src="./images/logo-rust.png"/>
+                <img class="tools-img" src="./images/logo-mongodb.png"/>
+                <img class="tools-img" src="./images/logo-nodejs.png"/>
+                <img class="tools-img" src="./images/logo-expressjs.png"/>
+                <img class="tools-img" src="./images/logo-react.png"/>
+            </div>
+            <div id="tools-1" class="d-md-flex justify-content-center">
+                <img class="tools-img" src="./images/logo-heroku.png"/>
+                <img class="tools-img" src="./images/logo-git.png"/>
+                <img class="tools-img" src="./images/logo-sublime-text-3.png"/>
+                <img class="tools-img" src="./images/logo-postman.png"/>
+                <img class="tools-img" src="./images/logo-gitlab-ci-cd.png"/>
+            </div>
+        </div>
+        <!-- Other Tools Section End -->
+    </div>
+    <!-- End of Tools Section -->
+
+
+
+    <!-- Start of Contact Section -->
+    <div id="contact" class="container-fluid text-light text-center min-vh-100 p-5 p-md-5">
+        <h1 class="text-uppercase"><strong>Get in touch with me</strong></h1>
+        <!-- Start of Contact Form -->
+        <div class="row mt-4 d-flex justify-content-center">
+            <div class="col-sm-12 col-md-8 col-lg-8 col-xl-4 p-3 bg-dark">
+                <form id="form-col">
+                    <div class="mb-3">
+                      <label for="name" class="form-label">Name</label>
+                      <input type="text" class="form-control" id="name">
+                    </div>
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email">
+                  </div>
+                  <div class="mb-3">
+                    <label for="contact-number" class="form-label">Contact Number</label>
+                    <input type="number" class="form-control" id="contact-number">
+                  </div>
+                  <div class="mb-3">
+                    <label for="concern">Concern</label>
+                    <select class="form-select" name="concern" id="concern">
+                      <option value="quotation">Quotation</option>
+                      <option value="bug">I want to report a bug.</option>
+                      <option value="together">Can we work together?</option>
+                      <option value="software">What software do you use?</option>
+                    </select>
+                  </div>
+                  <div class="mb-3">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" rows="5"></textarea>
+                  </div>
+
+                  <!-- Button trigger modal -->
+                  <div>
+                    <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modalDiv">
+                      Send Email
+                    </button>
+                  </div>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="modalDiv" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title text-dark" id="exampleModalLabel">Thank you for contacting me!</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-dark">
+                          Message Successfully Sent
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+                
+            </div>
+        </div>
+        <!-- End of Contact Form -->
+        <h1 class="text-uppercase mt-5"><strong>Follow Me</strong></h1>
+        <div class="row mt-4 pt-3 pb-3 d-md-flex justify-content-center">
+            <div class="pt-3 pb-3 px-1 col-2 col-md-1 col-lg-1">
+                <a href="https://www.facebook.com">
+                  <img src="./images/logo-facebook.png" alt="Clickable Image">
+                </a>
+            </div>
+            <div class="pt-3 pb-3 px-1 col-2 col-md-1 col-lg-1">
+                <a href="https://twitter.com">
+                  <img src="./images/logo-twitter.png" alt="Clickable Image">
+                </a>
+            </div>
+            <div class="pt-3 pb-3 px-1 col-2 col-md-1 col-lg-1">
+                <a href="https://www.instagram.com">
+                  <img src="./images/logo-instagram.png" alt="Clickable Image">
+                </a>
+            </div>
+            <div class="pt-3 pb-3 px-1 col-2 col-md-1 col-lg-1">
+                <a href="https://www.linkedin.com">
+                  <img src="./images/logo-linkedin.png" alt="Clickable Image">
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- End of Contact Section -->
+
+
+
+
+    <!-- Footer Start -->
+    <footer class="d-flex justify-content-center d-grid gap-3 p-3 bg-primary text-white ">
+        <div>&copy; 2023 Timothy Aaron Dy</div>
+        <div>|</div>
+        <div>All rights reserved.</div>
+    </footer>
+    <!-- Footer End -->
+
+
+    <!-- JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
